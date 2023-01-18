@@ -1,8 +1,8 @@
 # What is DeltaStream?
 
-<figure><img src=".gitbook/assets/ds_intro.jpeg" alt=""><figcaption></figcaption></figure>
-
 DeltaStream is a serverless database to manage and process all your streams on cloud. We built DeltaStream to take away the complexity from building and operating scalable, secure and reliable real-time streaming applications and make it as easy, fast, and accessible as possible. To achieve this goal, we are bringing the tried and true benefits of relational data management to the streaming world. Relational databases have successfully been used to manage and process data at rest for the last few decades and have played a crucial role in democratizing access to data in organizations. In addition to processing capabilities, these systems also provide capabilities to organize and secure data in a familiar way. With DeltaStream, we bring not just familiar processing capabilities to the streaming world but also provide similar ways to manage and secure streaming data, a unique differentiator compared to existing solutions.
+
+<figure><img src=".gitbook/assets/ds_intro.jpeg" alt=""><figcaption></figcaption></figure>
 
 The following are some of the principles that DeltaStream has built upon and what makes it into a unique service:
 
