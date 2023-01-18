@@ -13,14 +13,19 @@ Currently supported Kafka stores include:
 
     <figure><img src=".gitbook/assets/Screenshot 2023-01-18 at 12.00.09 PM.png" alt=""><figcaption></figcaption></figure>
 2. Select the **Store Type**
-   * Only **Kafka** and **Kinesis** is supported as a store type at this time.
-3. Select the Amazon **Availability Zone**.
-   * Only AWS **us-east-1** is supported at this time.
-4. Enter a unique **Name**.
-   * Store names are limitied to maximum of 255 characters. Only alpha characters, numbers, dashes, and underscores are allowed.
+3.  Select the Amazon **Availability Zone**.
+
+    |   | Only AWS **us-east-1** is supported at this time. |
+    | - | ------------------------------------------------- |
+4.  Enter a unique **Name**.
+
+    |   | Store names are limitied to maximum of 255 characters. Only alpha characters, numbers, dashes, and underscores are allowed. |
+    | - | --------------------------------------------------------------------------------------------------------------------------- |
 5. Add one or more **URLs** of your Kafka brokers to connect to the store.
-6. (Optional) Complete the Authentication options as appropriate for your store.
-   * If you are using Amazon MSK, there is no need for additional authentication.
+6.  (Optional) Complete the Authentication options as appropriate for your store.
+
+    |   | If you are using Amazon MSK, there is no need for additional authentication. |
+    | - | ---------------------------------------------------------------------------- |
 7. Click **Create**.
 
 ### Authentication options <a href="#auth-options" id="auth-options"></a>
