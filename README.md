@@ -1,7 +1,3 @@
----
-layout: landing
----
-
 # What is DeltaStream?
 
 <figure><img src=".gitbook/assets/ds_intro.jpeg" alt=""><figcaption></figcaption></figure>
