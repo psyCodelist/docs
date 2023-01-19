@@ -2,7 +2,7 @@
 
 DeltaStream is a serverless database to manage, secure and process all your streams on cloud. This data is stored in streaming storage services such as Apache Kafka or AWS Kinesis and are owned by users and are accessed by other user applications besides DeltaStream. DeltaStream provides a unified relational view of the data in user stores enabling users to organize, secure and process the data with a familiar relational model. To process the data, DeltaStream will read from and write into user storage services.
 
-### Store <a href="#_store" id="_store"></a>
+### Store:: <a href="#_store" id="_store"></a>
 
 A store is the representation of the physical location where user data resides. Stores can be streaming stores, such as Apache Kafka where data is stored in topics, or batch stores like AWS S3 where data is stored in files. DeltaStream reads data from stores, performs the desired computation, and writes the results of the computation to the same store or another. Stores are owned by users and in order to access the data in a store, the user configures connectivity and access to the store. For instance, if a user has an Apache Kafka cluster provided by Confluent Cloud, she can declare a store in DeltaStream by setting up the connectivity and access. Once the store is defined, DeltaStream can read from topics in the Kafka cluster and write into topics in the Kafka cluster.
 
